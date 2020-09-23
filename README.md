@@ -4,7 +4,7 @@ Packages to downgrade the gcc compiler version to 4.9.2 in Fedora.
 
 ## Steps
 ```
-  $ git clone https://github.com/DevipriyaSarkar/devtoolset-3.git
+  $ git clone https://github.com/leylandcn/centos-7-gcc/devtoolset-3.git
   $ cd devtoolset-3
   $ dnf install ./*.rpm
   $ scl enable devtoolset-3 bash
